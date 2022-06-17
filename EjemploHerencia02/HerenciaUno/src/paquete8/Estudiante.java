@@ -11,6 +11,12 @@ public class Estudiante {
     
     public Estudiante(String a, String iden, int ed){
                
+        apellidosEstudiante = a.toLowerCase();
+        identificacionEstudiante = iden;
+        edadEstudiante = ed;
+    }
+    public Estudiante(String n,String a, String iden, int ed){
+        nombresEstudiante = n;
         apellidosEstudiante = a;
         identificacionEstudiante = iden;
         edadEstudiante = ed;
