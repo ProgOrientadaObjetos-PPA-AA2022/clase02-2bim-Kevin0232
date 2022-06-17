@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Ejecutor1 {
 
     public static void main(String[] args) {
-
+        // Se crea un ArrayList de Estudiante Distancia
         ArrayList<EstudianteDistancia> listaDistancia = new ArrayList<>();
         
         EstudianteDistancia e1 = new EstudianteDistancia("Mario", "Mills", "212233",
